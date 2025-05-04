@@ -1,0 +1,56 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 18,
+    "per_page": 50,
+    "items": 870,
+    "urls": {
+      "last": "https://api.discogs.com/artists/260935/releases?sort\u003dyear\u0026sort_order\u003ddesc\u0026page\u003d18\u0026per_page\u003d50",
+      "next": "https://api.discogs.com/artists/260935/releases?sort\u003dyear\u0026sort_order\u003ddesc\u0026page\u003d2\u0026per_page\u003d50"
+    }
+  },
+  "releases": [
+    {
+      "id": 3743379,
+      "title": "Parasomnia",
+      "type": "master",
+      "main_release": 33070830,
+      "artist": "Dream Theater",
+      "role": "Main",
+      "resource_url": "https://api.discogs.com/masters/3743379",
+      "year": 2025,
+      "thumb": "https://i.discogs.com/Au7GIQ3MctL6w4bNGWgYKLTWHPYbO7XXgbzS9X8EgF8/MzctNDA3Mi5qcGVn.jpeg",
+      "stats": {
+        "community": {
+          "in_wantlist": 8,
+          "in_collection": 33
+        },
+        "user": {
+          "in_wantlist": 0,
+          "in_collection": 0
+        }
+      }
+    },
+    {
+      "id": 1507556,
+      "title": "On The Backs Of Angels",
+      "type": "master",
+      "main_release": 13267655,
+      "artist": "Dream Theater",
+      "role": "Main",
+      "resource_url": "https://api.discogs.com/masters/1507556",
+      "year": 2011,
+      "thumb": "https://i.discogs.com/UT_VOKnEqC7z2npVhm1jcqEQQxrLjEc-YhMrQljm514/MDYtNjgyOC5wbmc.jpeg",
+      "stats": {
+        "community": {
+          "in_wantlist": 1,
+          "in_collection": 6
+        },
+        "user": {
+          "in_wantlist": 0,
+          "in_collection": 0
+        }
+      }
+    }
+  ]
+}

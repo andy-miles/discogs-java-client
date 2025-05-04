@@ -1,0 +1,27 @@
+{
+  "fields": [
+    {
+      "name": "Field 1",
+      "options": [
+        "Option 1",
+        "Option 2"
+      ],
+      "id": 1,
+      "position": 1,
+      "type": "Type 1",
+      "public": false
+    },
+    {
+      "name": "Field 2",
+      "options": [
+        "Option 3",
+        "Option 4"
+      ],
+      "id": 2,
+      "position": 3,
+      "lines": 2,
+      "type": "textarea",
+      "public": true
+    }
+  ]
+}

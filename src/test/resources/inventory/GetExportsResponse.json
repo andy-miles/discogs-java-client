@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "status": "Status Value",
+      "created_ts": "2025-05-12T12:00:00Z",
+      "url": "https://someurl/301",
+      "finished_ts": "2025-06-12T13:00:00Z",
+      "download_url": "https://someurl/301/ExportFileName_301.csv",
+      "filename": "ExportFileName_301.csv",
+      "id": 301
+    },
+    {
+      "status": "Status Value",
+      "created_ts": "2025-05-12T12:00:00Z",
+      "url": "https://someurl/302",
+      "finished_ts": "2025-06-12T13:00:00Z",
+      "download_url": "https://someurl/302/ExportFileName_302.csv",
+      "filename": "ExportFileName_302.csv",
+      "id": 302
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "items": 86,
+    "per_page": 50,
+    "urls": {
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  }
+}

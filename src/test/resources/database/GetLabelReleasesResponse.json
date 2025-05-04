@@ -1,0 +1,53 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "items": 2,
+    "urls": {}
+  },
+  "releases": [
+    {
+      "status": "Accepted",
+      "format": "CD, Comp, Mixed",
+      "catno": "RRCD001",
+      "thumb": "https://i.discogs.com/bSHEjTcC5NH6-liqVUfB0u6efK07_Er0XMZgLqCnzJ8/anBlZw.jpeg",
+      "resource_url": "https://api.discogs.com/releases/58937",
+      "title": "Major Ice Volume #1",
+      "id": 58937,
+      "year": 2001,
+      "artist": "Terrence Parker",
+      "stats": {
+        "community": {
+          "in_wantlist": 21,
+          "in_collection": 21
+        },
+        "user": {
+          "in_wantlist": 0,
+          "in_collection": 0
+        }
+      }
+    },
+    {
+      "status": "Accepted",
+      "format": "12\"",
+      "catno": "RRV 001",
+      "thumb": "https://i.discogs.com/i7FSdojzEjwlK9-Ab4LcLExwROZi2xwvww7HI69Sc1g/anBlZw.jpeg",
+      "resource_url": "https://api.discogs.com/releases/21554",
+      "title": "Junk Yard Funk",
+      "id": 21554,
+      "year": 2001,
+      "artist": "Stacy Kidd",
+      "stats": {
+        "community": {
+          "in_wantlist": 152,
+          "in_collection": 118
+        },
+        "user": {
+          "in_wantlist": 0,
+          "in_collection": 0
+        }
+      }
+    }
+  ]
+}

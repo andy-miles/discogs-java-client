@@ -1,0 +1,122 @@
+{
+  "lists": [
+    {
+      "date_added": "2021-12-01T14:30:00Z",
+      "date_changed": "2021-12-01T14:30:00Z",
+      "uri": "https://someurl/11",
+      "public": false,
+      "description": "Description 11",
+      "items": [
+        {
+          "comment": "Comment 21",
+          "display_title": "Title 21",
+          "uri": "https://someurl/21",
+          "type": "Type 1",
+          "id": 21,
+          "resource_url": "https://someurl/21"
+        },
+        {
+          "comment": "Comment 22",
+          "display_title": "Title 22",
+          "uri": "https://someurl/22",
+          "type": "Type 2",
+          "id": 22,
+          "resource_url": "https://someurl/22"
+        },
+        {
+          "comment": "Comment 23",
+          "display_title": "Title 23",
+          "uri": "https://someurl/23",
+          "type": "Type 3",
+          "id": 23,
+          "resource_url": "https://someurl/23"
+        }
+      ],
+      "name": "User List Name 11",
+      "id": 11,
+      "resource_url": "https://someurl/11"
+    },
+    {
+      "date_added": "2021-12-01T14:30:00Z",
+      "date_changed": "2021-12-01T14:30:00Z",
+      "uri": "https://someurl/12",
+      "public": false,
+      "description": "Description 12",
+      "items": [
+        {
+          "comment": "Comment 21",
+          "display_title": "Title 21",
+          "uri": "https://someurl/21",
+          "type": "Type 1",
+          "id": 21,
+          "resource_url": "https://someurl/21"
+        },
+        {
+          "comment": "Comment 22",
+          "display_title": "Title 22",
+          "uri": "https://someurl/22",
+          "type": "Type 2",
+          "id": 22,
+          "resource_url": "https://someurl/22"
+        },
+        {
+          "comment": "Comment 23",
+          "display_title": "Title 23",
+          "uri": "https://someurl/23",
+          "type": "Type 3",
+          "id": 23,
+          "resource_url": "https://someurl/23"
+        }
+      ],
+      "name": "User List Name 12",
+      "id": 12,
+      "resource_url": "https://someurl/12"
+    },
+    {
+      "date_added": "2021-12-01T14:30:00Z",
+      "date_changed": "2021-12-01T14:30:00Z",
+      "uri": "https://someurl/13",
+      "public": false,
+      "description": "Description 13",
+      "items": [
+        {
+          "comment": "Comment 21",
+          "display_title": "Title 21",
+          "uri": "https://someurl/21",
+          "type": "Type 1",
+          "id": 21,
+          "resource_url": "https://someurl/21"
+        },
+        {
+          "comment": "Comment 22",
+          "display_title": "Title 22",
+          "uri": "https://someurl/22",
+          "type": "Type 2",
+          "id": 22,
+          "resource_url": "https://someurl/22"
+        },
+        {
+          "comment": "Comment 23",
+          "display_title": "Title 23",
+          "uri": "https://someurl/23",
+          "type": "Type 3",
+          "id": 23,
+          "resource_url": "https://someurl/23"
+        }
+      ],
+      "name": "User List Name 13",
+      "id": 13,
+      "resource_url": "https://someurl/13"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "items": 86,
+    "per_page": 50,
+    "urls": {
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  }
+}

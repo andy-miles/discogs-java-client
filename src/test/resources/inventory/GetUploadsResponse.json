@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "status": "Status 1",
+      "results": "Results 1",
+      "created_ts": "2025-09-13T12:25:00Z",
+      "finished_ts": "2025-09-13T12:30:00Z",
+      "filename": "UploadFilename_1.csv",
+      "type": "Upload Type 1",
+      "id": 901
+    },
+    {
+      "status": "Status 2",
+      "results": "Results 2",
+      "created_ts": "2025-09-13T12:25:00Z",
+      "finished_ts": "2025-09-13T12:30:00Z",
+      "filename": "UploadFilename_2.csv",
+      "type": "Upload Type 2",
+      "id": 902
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "items": 86,
+    "per_page": 50,
+    "urls": {
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  }
+}

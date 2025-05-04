@@ -1,0 +1,124 @@
+{
+  "id": 52086,
+  "main_release": 1827596,
+  "most_recent_release": 31573201,
+  "resource_url": "https://api.discogs.com/masters/52086",
+  "uri": "https://www.discogs.com/master/52086-Dream-Theater-Images-And-Words",
+  "versions_url": "https://api.discogs.com/masters/52086/versions",
+  "main_release_url": "https://api.discogs.com/releases/1827596",
+  "most_recent_release_url": "https://api.discogs.com/releases/31573201",
+  "num_for_sale": 722,
+  "lowest_price": 0.9,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 585
+    },
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 600,
+      "height": 470
+    }
+  ],
+  "genres": [
+    "Rock"
+  ],
+  "styles": [
+    "Heavy Metal",
+    "Prog Rock",
+    "Progressive Metal"
+  ],
+  "year": 1992,
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Pull Me Under",
+      "extraartists": [
+        {
+          "name": "Dream Theater",
+          "anv": "",
+          "join": "",
+          "role": "Music By [Images]",
+          "tracks": "",
+          "id": 260935,
+          "resource_url": "https://api.discogs.com/artists/260935"
+        },
+        {
+          "name": "Kevin Moore",
+          "anv": "Moore",
+          "join": "",
+          "role": "Words By",
+          "tracks": "",
+          "id": 130493,
+          "resource_url": "https://api.discogs.com/artists/130493"
+        }
+      ],
+      "duration": "8:11"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Another Day",
+      "extraartists": [
+        {
+          "name": "Dream Theater",
+          "anv": "",
+          "join": "",
+          "role": "Music By [Images]",
+          "tracks": "",
+          "id": 260935,
+          "resource_url": "https://api.discogs.com/artists/260935"
+        },
+        {
+          "name": "Jay Beckenstein",
+          "anv": "",
+          "join": "",
+          "role": "Soprano Saxophone",
+          "tracks": "",
+          "id": 261358,
+          "resource_url": "https://api.discogs.com/artists/261358"
+        },
+        {
+          "name": "John Petrucci",
+          "anv": "Petrucci",
+          "join": "",
+          "role": "Words By",
+          "tracks": "",
+          "id": 273938,
+          "resource_url": "https://api.discogs.com/artists/273938"
+        }
+      ],
+      "duration": "4:22"
+    }
+  ],
+  "artists": [
+    {
+      "name": "Dream Theater",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 260935,
+      "resource_url": "https://api.discogs.com/artists/260935"
+    }
+  ],
+  "title": "Images And Words",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v\u003dmipc-JxrhRk",
+      "title": "Dream Theater - Pull Me Under [OFFICIAL VIDEO]",
+      "description": "Buy/stream our new album \u0027A View From The Top Of The World\u0027, out now!",
+      "duration": 290,
+      "embed": true
+    }
+  ]
+}

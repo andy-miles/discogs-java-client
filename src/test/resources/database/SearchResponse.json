@@ -1,0 +1,115 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "items": 2,
+    "urls": {}
+  },
+  "results": [
+    {
+      "country": "Japan",
+      "year": "2019",
+      "format": [
+        "CD",
+        "Album",
+        "DVD",
+        "Limited Edition"
+      ],
+      "label": [
+        "Babymetal Records",
+        "Tucky\u0027s Mastering"
+      ],
+      "type": "master",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Heavy Metal",
+        "Alternative Rock",
+        "J-Rock",
+        "J-pop"
+      ],
+      "id": 1618299,
+      "barcode": [
+        "4988061866864"
+      ],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 1618299,
+      "master_url": "https://api.discogs.com/masters/1618299",
+      "uri": "/master/1618299-Babymetal-Metal-Galaxy",
+      "catno": "TFCC-86686",
+      "title": "Babymetal - Metal Galaxy",
+      "thumb": "https://i.discogs.com/_ACZnd-MUQ6lOuY7G1hBwnMUOm16uRNEd__hhuMUnWY/MjAtMTE0Mi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/QzZoJWRSvRWQkBPVI8sK7s3DkXMhuAhJLVysE3v022s/MjAtMTE0Mi5qcGVn.jpeg",
+      "resource_url": "https://api.discogs.com/masters/1618299",
+      "community": {
+        "want": 1632,
+        "have": 4004
+      }
+    },
+    {
+      "country": "US",
+      "year": "2019",
+      "format": [
+        "Vinyl",
+        "LP",
+        "Album",
+        "Limited Edition"
+      ],
+      "label": [
+        "Ear Music",
+        "Babymetal Records"
+      ],
+      "type": "release",
+      "genre": [
+        "Rock",
+        "Pop"
+      ],
+      "style": [
+        "Heavy Metal",
+        "Alternative Rock",
+        "J-pop"
+      ],
+      "id": 14339492,
+      "barcode": [
+        "7112975237",
+        "7 11297 52373 7",
+        "4029759143468"
+      ],
+      "user_data": {
+        "in_wantlist": false,
+        "in_collection": false
+      },
+      "master_id": 1618299,
+      "master_url": "https://api.discogs.com/masters/1618299",
+      "uri": "/release/14339492-Babymetal-Metal-Galaxy",
+      "catno": "0214346EMU",
+      "title": "Babymetal - Metal Galaxy",
+      "thumb": "https://i.discogs.com/z5XbCtvEFl5rlrHE6w0y_yPZ7-fmvyJXo4t-5DTeCHk/NDktMjA3OC5wbmc.jpeg",
+      "cover_image": "https://i.discogs.com/Qk1jNss6zaVLu7fTjwIKKWPjOX5vBWHuSqUAqI9wyS0/NDkyLTE1NzMzMjM3/NDktMjA3OC5wbmc.jpeg",
+      "resource_url": "https://api.discogs.com/releases/14339492",
+      "community": {
+        "want": 82,
+        "have": 100
+      },
+      "format_quantity": 2,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Transparent",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
+        }
+      ]
+    }
+  ]
+}

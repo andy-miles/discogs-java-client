@@ -1,0 +1,15 @@
+{
+  "id": 3456,
+  "name": "Real Right Recordings",
+  "resource_url": "https://api.discogs.com/labels/3456",
+  "uri": "https://www.discogs.com/label/3456-Real-Right-Recordings",
+  "releases_url": "https://api.discogs.com/labels/3456/releases",
+  "contact_info": "realrightrecordings@aol.com",
+  "profile": "[a119]\u0027s sublabel based in Detroit, Michigan",
+  "parent_label": {
+    "id": 788,
+    "name": "Intangible Records \u0026 Soundworks",
+    "resource_url": "https://api.discogs.com/labels/788"
+  },
+  "data_quality": "Correct"
+}

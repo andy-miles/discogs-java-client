@@ -1,0 +1,36 @@
+{
+  "date_added": "2021-12-01T14:30:00Z",
+  "date_changed": "2021-12-01T14:30:00Z",
+  "uri": "https://someurl/14",
+  "public": false,
+  "description": "Description",
+  "items": [
+    {
+      "comment": "Comment 21",
+      "display_title": "Title 21",
+      "uri": "https://someurl/21",
+      "type": "Type 1",
+      "id": 21,
+      "resource_url": "https://someurl/21"
+    },
+    {
+      "comment": "Comment 22",
+      "display_title": "Title 22",
+      "uri": "https://someurl/22",
+      "type": "Type 2",
+      "id": 22,
+      "resource_url": "https://someurl/22"
+    },
+    {
+      "comment": "Comment 23",
+      "display_title": "Title 23",
+      "uri": "https://someurl/23",
+      "type": "Type 3",
+      "id": 23,
+      "resource_url": "https://someurl/23"
+    }
+  ],
+  "name": "User List Name",
+  "id": 14,
+  "resource_url": "https://someurl/14"
+}

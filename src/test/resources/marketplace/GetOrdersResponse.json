@@ -1,0 +1,136 @@
+{
+  "orders": [
+    {
+      "messages_url": "https://api.discogs.com/marketplace/orders/OrderId1/messages",
+      "uri": "https://www.discogs.com/marketplace/orders/OrderId",
+      "status": "NEW_ORDER",
+      "next_status": [
+        "IN_PROGRESS"
+      ],
+      "fee": {
+        "currency": "USD",
+        "value": 9.99
+      },
+      "created": "2024-01-12T14:30:30Z",
+      "items": [
+        {
+          "id": 123456,
+          "release": {
+            "id": 234567,
+            "description": "Release Description"
+          },
+          "price": {
+            "currency": "USD",
+            "value": 9.99
+          }
+        }
+      ],
+      "shipping": {
+        "method": "USPS",
+        "currency": "USD",
+        "value": 2.99
+      },
+      "shipping_address": "Shipping Address Value",
+      "additional_instructions": "Additional instructions",
+      "archived": false,
+      "seller": {
+        "username": "SomeSeller",
+        "avatar_url": "https://i.discogs.com/W9m0QfAHkYbBd2jfmD5CiNGiiEgbCOE5gL7CMSVzWcw/cGVn.jpeg",
+        "url": "https://api.discogs.com/users/SomeSeller",
+        "shipping": "12\" records $6.50 1-2 records. $7.50 3 records and up.  Shipping in the USA.\r\nNo international shipping Sorry\r\nI cannot guarantee the condition of sealed records. ",
+        "payment": "PayPal Commerce",
+        "stats": {
+          "rating": "100.0",
+          "stars": 5.0,
+          "total": 50
+        },
+        "min_order_total": 9.99,
+        "html_url": "https://www.discogs.com/user/SomeSeller",
+        "uid": 1234567,
+        "id": 1234567,
+        "resource_url": "https://api.discogs.com/users/SomeSeller"
+      },
+      "last_activity": "2024-01-12T14:30:30Z",
+      "buyer": {
+        "username": "Username",
+        "id": 98764,
+        "resource_url": "https://wwww.discogs.com/user/98764"
+      },
+      "total": {
+        "currency": "USD",
+        "value": 12.98
+      },
+      "id": "OrderId1",
+      "resource_url": "https://api.discogs.com/marketplace/orders/OrderId1"
+    },
+    {
+      "messages_url": "https://api.discogs.com/marketplace/orders/OrderId2/messages",
+      "uri": "https://www.discogs.com/marketplace/orders/OrderId",
+      "status": "NEW_ORDER",
+      "next_status": [
+        "IN_PROGRESS"
+      ],
+      "fee": {
+        "currency": "USD",
+        "value": 9.99
+      },
+      "created": "2024-01-12T14:30:30Z",
+      "items": [
+        {
+          "id": 123456,
+          "release": {
+            "id": 234567,
+            "description": "Release Description"
+          },
+          "price": {
+            "currency": "USD",
+            "value": 9.99
+          }
+        }
+      ],
+      "shipping": {
+        "method": "USPS",
+        "currency": "USD",
+        "value": 2.99
+      },
+      "shipping_address": "Shipping Address Value",
+      "additional_instructions": "Additional instructions",
+      "archived": false,
+      "seller": {
+        "username": "SomeSeller",
+        "avatar_url": "https://i.discogs.com/W9m0QfAHkYbBd2jfmD5CiNGiiEgbCOE5gL7CMSVzWcw/cGVn.jpeg",
+        "url": "https://api.discogs.com/users/SomeSeller",
+        "shipping": "12\" records $6.50 1-2 records. $7.50 3 records and up.  Shipping in the USA.\r\nNo international shipping Sorry\r\nI cannot guarantee the condition of sealed records. ",
+        "payment": "PayPal Commerce",
+        "stats": {
+          "rating": "100.0",
+          "stars": 5.0,
+          "total": 50
+        },
+        "min_order_total": 9.99,
+        "html_url": "https://www.discogs.com/user/SomeSeller",
+        "uid": 1234567,
+        "id": 1234567,
+        "resource_url": "https://api.discogs.com/users/SomeSeller"
+      },
+      "last_activity": "2024-01-12T14:30:30Z",
+      "buyer": {
+        "username": "Username",
+        "id": 98764,
+        "resource_url": "https://wwww.discogs.com/user/98764"
+      },
+      "total": {
+        "currency": "USD",
+        "value": 12.98
+      },
+      "id": "OrderId2",
+      "resource_url": "https://api.discogs.com/marketplace/orders/OrderId2"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "items": 2,
+    "per_page": 5,
+    "urls": {}
+  }
+}

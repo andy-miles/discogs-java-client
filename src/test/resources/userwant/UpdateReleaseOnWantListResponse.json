@@ -1,0 +1,69 @@
+{
+  "instance_id": 403,
+  "rating": 9,
+  "basic_information": {
+    "labels": [
+      {
+        "catno": "Catalog Number 1",
+        "entity_type": "label",
+        "entity_type_name": "label",
+        "id": 679,
+        "resource_url": "https://someurl/6781"
+      },
+      {
+        "catno": "Catalog Number 2",
+        "entity_type": "label",
+        "entity_type_name": "label",
+        "id": 680,
+        "resource_url": "https://someurl/6782"
+      }
+    ],
+    "formats": [
+      {
+        "descriptions": [
+          "Album"
+        ],
+        "name": "CD",
+        "qty": 1
+      }
+    ],
+    "thumb": "https://someurl/thumb1",
+    "cover_image": "https://someurl/cover1.jpg",
+    "title": "Title 1",
+    "artists": [
+      {
+        "anv": "",
+        "join": "",
+        "name": "Artist1",
+        "role": "role 1",
+        "tracks": "",
+        "id": 5678901,
+        "resource_url": "https://api.discogs.com/artists/5678901"
+      },
+      {
+        "anv": "",
+        "join": "",
+        "name": "Artist2",
+        "role": "role 2",
+        "tracks": "",
+        "thumbnail_url": "https://i.discogs.com/ArtistThumbnail2.jpeg",
+        "id": 5678902,
+        "resource_url": "https://api.discogs.com/artists/5678902"
+      }
+    ],
+    "genres": [
+      "Rock",
+      "Metal"
+    ],
+    "styles": [
+      "Style 1",
+      "Style 2"
+    ],
+    "year": 2000,
+    "id": 501,
+    "resource_url": "https://someurl/501"
+  },
+  "folder_id": 601,
+  "date_added": "2015-11-12T14:20:09Z",
+  "notes": "Notes"
+}

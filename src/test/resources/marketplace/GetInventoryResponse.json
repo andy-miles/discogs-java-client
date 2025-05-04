@@ -1,0 +1,171 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "per_page": 50,
+    "items": 2,
+    "urls": {}
+  },
+  "listings": [
+    {
+      "id": 3526621535,
+      "resource_url": "https://api.discogs.com/marketplace/listings/3526621535",
+      "uri": "https://www.discogs.com/sell/item/3526621535",
+      "status": "For Sale",
+      "condition": "Near Mint (NM or M-)",
+      "sleeve_condition": "Very Good Plus (VG+)",
+      "comments": "Case has some scratches. Nothing major",
+      "ships_from": "United States",
+      "posted": "2025-04-13T20:16:17-07:00",
+      "allow_offers": true,
+      "offer_submitted": false,
+      "audio": false,
+      "price": {
+        "value": 14.99,
+        "currency": "USD"
+      },
+      "original_price": {
+        "curr_abbr": "USD",
+        "curr_id": 1,
+        "formatted": "$14.99",
+        "value": 14.99
+      },
+      "shipping_price": {},
+      "original_shipping_price": {},
+      "seller": {
+        "id": 1234567,
+        "username": "SomeSeller",
+        "avatar_url": "https://i.discogs.com/W9m0QfAHkYbBd2jfmD5CiNGiiEgbCOE5gL7CMSVzWcw/cGVn.jpeg",
+        "stats": {
+          "rating": "100.0",
+          "stars": 5.0,
+          "total": 50
+        },
+        "min_order_total": 9.99,
+        "html_url": "https://www.discogs.com/user/SomeSeller",
+        "uid": 1234567,
+        "url": "https://api.discogs.com/users/SomeSeller",
+        "payment": "PayPal Commerce",
+        "shipping": "12\" records $6.50 1-2 records. $7.50 3 records and up.  Shipping in the USA.\r\nNo international shipping Sorry\r\nI cannot guarantee the condition of sealed records. ",
+        "resource_url": "https://api.discogs.com/users/SomeSeller"
+      },
+      "release": {
+        "thumbnail": "https://i.discogs.com/akTxx56BFp74nutI6vMlJTmq1KUHCZFluQirvuM7Btc/LTU0MDkuanBlZw.jpeg",
+        "description": "Live - Selling The Drama (CD, Maxi)",
+        "images": [
+          {
+            "type": "primary",
+            "uri": "https://i.discogs.com/bMrMDvPk2jkFNMfDp7i4JMx6njkE-TiCIJLvA_eN90s/LTU0MDkuanBlZw.jpeg",
+            "resource_url": "https://i.discogs.com/bMrMDvPk2jkFNMfDp7i4JMx6njkE-TiCIJLvA_eN90s/LTU0MDkuanBlZw.jpeg",
+            "uri150": "https://i.discogs.com/akTxx56BFp74nutI6vMlJTmq1KUHCZFluQirvuM7Btc/LTU0MDkuanBlZw.jpeg",
+            "width": 600,
+            "height": 518
+          }
+        ],
+        "artist": "Live",
+        "format": "CD, Maxi",
+        "resource_url": "https://api.discogs.com/releases/416300",
+        "title": "Selling The Drama",
+        "year": 1994,
+        "id": 416300,
+        "label": "Radioactive",
+        "catalog_number": "RAD 31974",
+        "stats": {
+          "community": {
+            "in_wantlist": 27,
+            "in_collection": 209
+          },
+          "user": {
+            "in_wantlist": 0,
+            "in_collection": 0
+          }
+        }
+      },
+      "in_cart": false
+    },
+    {
+      "id": 3458734932,
+      "resource_url": "https://api.discogs.com/marketplace/listings/3458734932",
+      "uri": "https://www.discogs.com/sell/item/3458734932",
+      "status": "For Sale",
+      "condition": "Very Good Plus (VG+)",
+      "sleeve_condition": "Very Good (VG)",
+      "comments": "Has hype sticker",
+      "ships_from": "United States",
+      "posted": "2025-04-13T20:16:17-07:00",
+      "allow_offers": false,
+      "offer_submitted": false,
+      "audio": false,
+      "price": {
+        "value": 16.99,
+        "currency": "USD"
+      },
+      "original_price": {
+        "curr_abbr": "USD",
+        "curr_id": 1,
+        "formatted": "$16.99",
+        "value": 16.99
+      },
+      "shipping_price": {},
+      "original_shipping_price": {},
+      "seller": {
+        "id": 1234567,
+        "username": "SomeSeller",
+        "avatar_url": "https://i.discogs.com/W9m0QfAHkYbBd2jfmD5CiNGiiEgbCOE5gL7CMSVzWcw/cGVn.jpeg",
+        "stats": {
+          "rating": "100.0",
+          "stars": 5.0,
+          "total": 50
+        },
+        "min_order_total": 9.99,
+        "html_url": "https://www.discogs.com/user/SomeSeller",
+        "uid": 1234567,
+        "url": "https://api.discogs.com/users/SomeSeller",
+        "payment": "PayPal Commerce",
+        "shipping": "12\" records $6.50 1-2 records. $7.50 3 records and up.  Shipping in the USA.\r\nNo international shipping Sorry\r\nI cannot guarantee the condition of sealed records. ",
+        "resource_url": "https://api.discogs.com/users/SomeSeller"
+      },
+      "release": {
+        "thumbnail": "https://i.discogs.com/1uu4OLLHoEY7HSA76nAxSeyOHnfrABT7k421w33Xh3E/LmpwZw.jpeg",
+        "description": "Too Short - Shorty The Player (LP, Promo)",
+        "images": [
+          {
+            "type": "primary",
+            "uri": "https://i.discogs.com/jCQGgYBW3XhQSkMkcLoNiWcIvBo6TTjrNufHsWaFV_U/LmpwZw.jpeg",
+            "resource_url": "https://i.discogs.com/jCQGgYBW3XhQSkMkcLoNiWcIvBo6TTjrNufHsWaFV_U/LmpwZw.jpeg",
+            "uri150": "https://i.discogs.com/1uu4OLLHoEY7HSA76nAxSeyOHnfrABT7k421w33Xh3E/LmpwZw.jpeg",
+            "width": 500,
+            "height": 245
+          },
+          {
+            "type": "secondary",
+            "uri": "https://i.discogs.com/30npS3V4IYqkV3KKHF8HWUCMJ2UdGe27UARl24LsnBM/LmpwZw.jpeg",
+            "resource_url": "https://i.discogs.com/30npS3V4IYqkV3KKHF8HWUCMJ2UdGe27UARl24LsnBM/LmpwZw.jpeg",
+            "uri150": "https://i.discogs.com/4kzSCvjhf5YwUKuzD2RCQAl4tlFDzDP1ZVmANz3GFsQ/LmpwZw.jpeg",
+            "width": 400,
+            "height": 394
+          }
+        ],
+        "artist": "Too Short",
+        "format": "LP, Promo",
+        "resource_url": "https://api.discogs.com/releases/488180",
+        "title": "Shorty The Player",
+        "year": 1992,
+        "id": 488180,
+        "label": "Jive, Dangerous Music",
+        "catalog_number": "JDJ-41505-1",
+        "stats": {
+          "community": {
+            "in_wantlist": 160,
+            "in_collection": 35
+          },
+          "user": {
+            "in_wantlist": 0,
+            "in_collection": 0
+          }
+        }
+      },
+      "in_cart": false
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Dream Theater",
+  "id": 260935,
+  "resource_url": "https://api.discogs.com/artists/260935",
+  "uri": "https://www.discogs.com/artist/260935-Dream-Theater",
+  "releases_url": "https://api.discogs.com/artists/260935/releases",
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/KV8WwalZL1qvW75I3335VYJLMHESj2CseyqMo5TpEec/LTgzOTIuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/KV8WwalZL1qvW75I3335VYJLMHESj2CseyqMo5TpEec/LTgzOTIuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/e8aFZsy_ZDMLzmO3aG1PW8PJLC0FsnUkeio5bNh6ypk/LTgzOTIuanBlZw.jpeg",
+      "width": 600,
+      "height": 387
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/ORaY0YnIfrTv9HamYqu65WkZ_wzn_dWEB6lRWajPdyg/LTE4OTUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/ORaY0YnIfrTv9HamYqu65WkZ_wzn_dWEB6lRWajPdyg/LTE4OTUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/m72qTinZEGXRChbdMWbW-M0io0rwTye_IAv0F2bsUWU/LTE4OTUuanBlZw.jpeg",
+      "width": 600,
+      "height": 555
+    }
+  ],
+  "profile": "American progressive metal band, formed in Boston, Massachusetts, USA in 1985.",
+  "urls": [
+    "https://dreamtheater.net/",
+    "https://www.facebook.com/dreamtheater"
+  ],
+  "namevariations": [
+    "Dream Theatre",
+    "ドリーム・シアター"
+  ],
+  "aliases": [
+    {
+      "id": 1405184,
+      "name": "Majesty (10)",
+      "resource_url": "https://api.discogs.com/artists/1405184",
+      "thumbnail_url": "https://i.discogs.com/8hDfbNwB5Bq1m4GLm99uwOkOFa9rzqe3LnyyY0zC5Tk/NC5qcGVn.jpeg"
+    }
+  ],
+  "members": [
+    {
+      "id": 130493,
+      "name": "Kevin Moore",
+      "resource_url": "https://api.discogs.com/artists/130493",
+      "active": false,
+      "thumbnail_url": "https://i.discogs.com/K0eCFqa93xBSeBFhi3ixl_nrBVpsZYqwCRodR7oRVv4/LTY1MDcuanBlZw.jpeg"
+    },
+    {
+      "id": 273937,
+      "name": "Mike Portnoy",
+      "resource_url": "https://api.discogs.com/artists/273937",
+      "active": true,
+      "thumbnail_url": "https://i.discogs.com/QXxhAAOpJz6aoq0pfFCH6Xau0SviV6QA-m379BVAYh4/LTk4MzAuanBlZw.jpeg"
+    },
+    {
+      "id": 273938,
+      "name": "John Petrucci",
+      "resource_url": "https://api.discogs.com/artists/273938",
+      "active": true,
+      "thumbnail_url": "https://i.discogs.com/etSqsGLf6y1m-470MmXPKHsOGW3V9OHJhD8O5BN0CR8/LTk2OTEuanBlZw.jpeg"
+    },
+    {
+      "id": 277596,
+      "name": "James LaBrie",
+      "resource_url": "https://api.discogs.com/artists/277596",
+      "active": true,
+      "thumbnail_url": "https://i.discogs.com/4010wgiXPt6ohr_NNYmI2ncu6lbc08VRGdIZY97FxRY/LTMwMzYuanBlZw.jpeg"
+    },
+    {
+      "id": 335835,
+      "name": "Jordan Rudess",
+      "resource_url": "https://api.discogs.com/artists/335835",
+      "active": true,
+      "thumbnail_url": "https://i.discogs.com/uIwRUrn9v0WCGKEOI95OA_QuTdDHTMsddWgQS6Kj3bI/LTY4NTguanBlZw.jpeg"
+    },
+    {
+      "id": 359443,
+      "name": "Derek Sherinian",
+      "resource_url": "https://api.discogs.com/artists/359443",
+      "active": false,
+      "thumbnail_url": "https://i.discogs.com/yqFq7f2ChdgDnzmnp6y_jo0cF858XAm0ykdZhSwYzP8/LTgzODguanBlZw.jpeg"
+    },
+    {
+      "id": 499846,
+      "name": "John Myung",
+      "resource_url": "https://api.discogs.com/artists/499846",
+      "active": true,
+      "thumbnail_url": "https://i.discogs.com/ZhvmulHBx97KnVZyWmAkF7mDNdfih6MwG7DKfqCyyL8/LTg0MTcuanBlZw.jpeg"
+    },
+    {
+      "id": 499848,
+      "name": "Charlie Dominici",
+      "resource_url": "https://api.discogs.com/artists/499848",
+      "active": false,
+      "thumbnail_url": "https://i.discogs.com/s4K4zNiRO2lI3BabW2vxeSVNNk1Tmhnm_nsT6L8SOpM/LTE3MzkuanBlZw.jpeg"
+    },
+    {
+      "id": 874960,
+      "name": "Mike Mangini (2)",
+      "resource_url": "https://api.discogs.com/artists/874960",
+      "active": false,
+      "thumbnail_url": "https://i.discogs.com/c5Nai52BtLs-f3W3U7cl6ll2QOh05FoqEAZave267lY/LTgwMzMuanBlZw.jpeg"
+    }
+  ],
+  "data_quality": "Needs Vote"
+}

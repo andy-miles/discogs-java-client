@@ -1,0 +1,9 @@
+{
+  "status": "Status Value",
+  "created_ts": "2025-05-12T12:00:00Z",
+  "url": "https://someurl/300",
+  "finished_ts": "2025-06-12T13:00:00Z",
+  "download_url": "https://someurl/300/ExportfileName_300.csv",
+  "filename": "ExportFileName_300.csv",
+  "id": 300
+}

@@ -1,0 +1,599 @@
+{
+  "contributions": [
+    {
+      "artists_sort": "Artist1",
+      "community": {
+        "contributors": [
+          {
+            "resource_url": "https://api.discogs.com/users/UserName1",
+            "username": "UserName1"
+          },
+          {
+            "resource_url": "https://api.discogs.com/users/UserName2",
+            "username": "UserName2"
+          }
+        ],
+        "data_quality": "Needs Vote",
+        "have": 2492,
+        "rating": {
+          "average": 4.34,
+          "count": 240
+        },
+        "status": "Accepted",
+        "submitter": {
+          "resource_url": "https://api.discogs.com/users/UserName1",
+          "username": "UserName1"
+        },
+        "want": 247
+      },
+      "companies": [
+        {
+          "catno": "",
+          "entity_type": "13",
+          "entity_type_name": "Phonographic Copyright (p)",
+          "name": "Recording Corporation",
+          "id": 34567,
+          "resource_url": "https://api.discogs.com/labels/34567"
+        }
+      ],
+      "country": "US",
+      "extraartists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist2",
+          "role": "A\u0026R",
+          "tracks": "",
+          "id": 5678902,
+          "resource_url": "https://api.discogs.com/artists/5678902"
+        },
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist3",
+          "role": "Art Direction",
+          "tracks": "",
+          "id": 5678903,
+          "resource_url": "https://api.discogs.com/artists/5678903"
+        }
+      ],
+      "format_quantity": 1,
+      "formats": [
+        {
+          "descriptions": [
+            "Album"
+          ],
+          "name": "CD",
+          "qty": 1
+        }
+      ],
+      "identifiers": [
+        {
+          "type": "Barcode",
+          "value": "0 9876-43212-2 8",
+          "description": "Text"
+        },
+        {
+          "type": "Barcode",
+          "value": "098764321228",
+          "description": "Reader"
+        }
+      ],
+      "blocked_from_sale": false,
+      "is_offensive": false,
+      "labels": [
+        {
+          "catno": "4 987423-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "name": "Record Label",
+          "thumbnail_url": "https://i.discogs.com/RecordLabelThumbnail.jpeg",
+          "id": 3456,
+          "resource_url": "https://api.discogs.com/labels/3456"
+        }
+      ],
+      "master_id": 12345678,
+      "master_url": "https://api.discogs.com/masters/12345678",
+      "notes": "Album Notes",
+      "released": "2000-07-07",
+      "released_formatted": "07 Jul 2000",
+      "series": [],
+      "status": "Accepted",
+      "artists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist1",
+          "role": "",
+          "tracks": "",
+          "thumbnail_url": "https://i.discogs.com/ArtistThumbnail1.jpeg",
+          "id": 5678901,
+          "resource_url": "https://api.discogs.com/artists/5678901"
+        }
+      ],
+      "data_quality": "Needs Vote",
+      "date_added": "2009-06-26T19:24:42Z",
+      "date_changed": "2024-12-09T19:00:25Z",
+      "estimated_weight": 85,
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/primary.jpeg",
+          "type": "primary",
+          "uri": "https://i.discogs.com/primary.jpeg",
+          "uri150": "https://i.discogs.com/primary150.jpeg"
+        },
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/secondary.jpeg",
+          "type": "secondary",
+          "uri": "https://i.discogs.com/secondary.jpeg",
+          "uri150": "https://i.discogs.com/secondary150.jpeg"
+        }
+      ],
+      "lowest_price": 3.0,
+      "num_for_sale": 40,
+      "styles": [
+        "Heavy Metal",
+        "Prog Rock",
+        "Progressive Metal"
+      ],
+      "thumb": "https://i.discogs.com/ReleaseThumbnail.jpeg",
+      "tracklist": [
+        {
+          "position": "1",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track1",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track2",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        }
+      ],
+      "title": "Album Title",
+      "uri": "https://www.discogs.com/release/1234567-Test-Album",
+      "videos": [
+        {
+          "description": "Music Video",
+          "duration": 0,
+          "embed": true,
+          "title": "Artist - Album",
+          "uri": "https://video.com/video"
+        }
+      ],
+      "year": 2000,
+      "id": 1234567,
+      "resource_url": "https://api.discogs.com/releases/1234567"
+    },
+    {
+      "artists_sort": "Artist1",
+      "community": {
+        "contributors": [
+          {
+            "resource_url": "https://api.discogs.com/users/UserName1",
+            "username": "UserName1"
+          },
+          {
+            "resource_url": "https://api.discogs.com/users/UserName2",
+            "username": "UserName2"
+          }
+        ],
+        "data_quality": "Needs Vote",
+        "have": 2492,
+        "rating": {
+          "average": 4.34,
+          "count": 240
+        },
+        "status": "Accepted",
+        "submitter": {
+          "resource_url": "https://api.discogs.com/users/UserName1",
+          "username": "UserName1"
+        },
+        "want": 247
+      },
+      "companies": [
+        {
+          "catno": "",
+          "entity_type": "13",
+          "entity_type_name": "Phonographic Copyright (p)",
+          "name": "Recording Corporation",
+          "id": 34567,
+          "resource_url": "https://api.discogs.com/labels/34567"
+        }
+      ],
+      "country": "US",
+      "extraartists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist2",
+          "role": "A\u0026R",
+          "tracks": "",
+          "id": 5678902,
+          "resource_url": "https://api.discogs.com/artists/5678902"
+        },
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist3",
+          "role": "Art Direction",
+          "tracks": "",
+          "id": 5678903,
+          "resource_url": "https://api.discogs.com/artists/5678903"
+        }
+      ],
+      "format_quantity": 1,
+      "formats": [
+        {
+          "descriptions": [
+            "Album"
+          ],
+          "name": "CD",
+          "qty": 1
+        }
+      ],
+      "identifiers": [
+        {
+          "type": "Barcode",
+          "value": "0 9876-43212-2 8",
+          "description": "Text"
+        },
+        {
+          "type": "Barcode",
+          "value": "098764321228",
+          "description": "Reader"
+        }
+      ],
+      "blocked_from_sale": false,
+      "is_offensive": false,
+      "labels": [
+        {
+          "catno": "4 987423-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "name": "Record Label",
+          "thumbnail_url": "https://i.discogs.com/RecordLabelThumbnail.jpeg",
+          "id": 3456,
+          "resource_url": "https://api.discogs.com/labels/3456"
+        }
+      ],
+      "master_id": 12345678,
+      "master_url": "https://api.discogs.com/masters/12345678",
+      "notes": "Album Notes",
+      "released": "2000-07-07",
+      "released_formatted": "07 Jul 2000",
+      "series": [],
+      "status": "Accepted",
+      "artists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist1",
+          "role": "",
+          "tracks": "",
+          "thumbnail_url": "https://i.discogs.com/ArtistThumbnail1.jpeg",
+          "id": 5678901,
+          "resource_url": "https://api.discogs.com/artists/5678901"
+        }
+      ],
+      "data_quality": "Needs Vote",
+      "date_added": "2009-06-26T19:24:42Z",
+      "date_changed": "2024-12-09T19:00:25Z",
+      "estimated_weight": 85,
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/primary.jpeg",
+          "type": "primary",
+          "uri": "https://i.discogs.com/primary.jpeg",
+          "uri150": "https://i.discogs.com/primary150.jpeg"
+        },
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/secondary.jpeg",
+          "type": "secondary",
+          "uri": "https://i.discogs.com/secondary.jpeg",
+          "uri150": "https://i.discogs.com/secondary150.jpeg"
+        }
+      ],
+      "lowest_price": 3.0,
+      "num_for_sale": 40,
+      "styles": [
+        "Heavy Metal",
+        "Prog Rock",
+        "Progressive Metal"
+      ],
+      "thumb": "https://i.discogs.com/ReleaseThumbnail.jpeg",
+      "tracklist": [
+        {
+          "position": "1",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track1",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track2",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        }
+      ],
+      "title": "Album Title",
+      "uri": "https://www.discogs.com/release/1234568-Test-Album",
+      "videos": [
+        {
+          "description": "Music Video",
+          "duration": 0,
+          "embed": true,
+          "title": "Artist - Album",
+          "uri": "https://video.com/video"
+        }
+      ],
+      "year": 2000,
+      "id": 1234568,
+      "resource_url": "https://api.discogs.com/releases/1234568"
+    },
+    {
+      "artists_sort": "Artist1",
+      "community": {
+        "contributors": [
+          {
+            "resource_url": "https://api.discogs.com/users/UserName1",
+            "username": "UserName1"
+          },
+          {
+            "resource_url": "https://api.discogs.com/users/UserName2",
+            "username": "UserName2"
+          }
+        ],
+        "data_quality": "Needs Vote",
+        "have": 2492,
+        "rating": {
+          "average": 4.34,
+          "count": 240
+        },
+        "status": "Accepted",
+        "submitter": {
+          "resource_url": "https://api.discogs.com/users/UserName1",
+          "username": "UserName1"
+        },
+        "want": 247
+      },
+      "companies": [
+        {
+          "catno": "",
+          "entity_type": "13",
+          "entity_type_name": "Phonographic Copyright (p)",
+          "name": "Recording Corporation",
+          "id": 34567,
+          "resource_url": "https://api.discogs.com/labels/34567"
+        }
+      ],
+      "country": "US",
+      "extraartists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist2",
+          "role": "A\u0026R",
+          "tracks": "",
+          "id": 5678902,
+          "resource_url": "https://api.discogs.com/artists/5678902"
+        },
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist3",
+          "role": "Art Direction",
+          "tracks": "",
+          "id": 5678903,
+          "resource_url": "https://api.discogs.com/artists/5678903"
+        }
+      ],
+      "format_quantity": 1,
+      "formats": [
+        {
+          "descriptions": [
+            "Album"
+          ],
+          "name": "CD",
+          "qty": 1
+        }
+      ],
+      "identifiers": [
+        {
+          "type": "Barcode",
+          "value": "0 9876-43212-2 8",
+          "description": "Text"
+        },
+        {
+          "type": "Barcode",
+          "value": "098764321228",
+          "description": "Reader"
+        }
+      ],
+      "blocked_from_sale": false,
+      "is_offensive": false,
+      "labels": [
+        {
+          "catno": "4 987423-1",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "name": "Record Label",
+          "thumbnail_url": "https://i.discogs.com/RecordLabelThumbnail.jpeg",
+          "id": 3456,
+          "resource_url": "https://api.discogs.com/labels/3456"
+        }
+      ],
+      "master_id": 12345678,
+      "master_url": "https://api.discogs.com/masters/12345678",
+      "notes": "Album Notes",
+      "released": "2000-07-07",
+      "released_formatted": "07 Jul 2000",
+      "series": [],
+      "status": "Accepted",
+      "artists": [
+        {
+          "anv": "",
+          "join": "",
+          "name": "Artist1",
+          "role": "",
+          "tracks": "",
+          "thumbnail_url": "https://i.discogs.com/ArtistThumbnail1.jpeg",
+          "id": 5678901,
+          "resource_url": "https://api.discogs.com/artists/5678901"
+        }
+      ],
+      "data_quality": "Needs Vote",
+      "date_added": "2009-06-26T19:24:42Z",
+      "date_changed": "2024-12-09T19:00:25Z",
+      "estimated_weight": 85,
+      "genres": [
+        "Rock"
+      ],
+      "images": [
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/primary.jpeg",
+          "type": "primary",
+          "uri": "https://i.discogs.com/primary.jpeg",
+          "uri150": "https://i.discogs.com/primary150.jpeg"
+        },
+        {
+          "height": 480,
+          "width": 600,
+          "resource_url": "https://i.discogs.com/secondary.jpeg",
+          "type": "secondary",
+          "uri": "https://i.discogs.com/secondary.jpeg",
+          "uri150": "https://i.discogs.com/secondary150.jpeg"
+        }
+      ],
+      "lowest_price": 3.0,
+      "num_for_sale": 40,
+      "styles": [
+        "Heavy Metal",
+        "Prog Rock",
+        "Progressive Metal"
+      ],
+      "thumb": "https://i.discogs.com/ReleaseThumbnail.jpeg",
+      "tracklist": [
+        {
+          "position": "1",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track1",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        },
+        {
+          "position": "2",
+          "duration": "5:00",
+          "type_": "track",
+          "title": "Track2",
+          "extraartists": [
+            {
+              "anv": "",
+              "join": "",
+              "name": "Artist1",
+              "role": "Music By Artist",
+              "tracks": "",
+              "id": 5678901,
+              "resource_url": "https://api.discogs.com/artists/5678901"
+            }
+          ]
+        }
+      ],
+      "title": "Album Title",
+      "uri": "https://www.discogs.com/release/1234569-Test-Album",
+      "videos": [
+        {
+          "description": "Music Video",
+          "duration": 0,
+          "embed": true,
+          "title": "Artist - Album",
+          "uri": "https://video.com/video"
+        }
+      ],
+      "year": 2000,
+      "id": 1234569,
+      "resource_url": "https://api.discogs.com/releases/1234569"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "items": 86,
+    "per_page": 50,
+    "urls": {
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  }
+}

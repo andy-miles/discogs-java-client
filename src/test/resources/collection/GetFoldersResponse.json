@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "count": 2,
+      "name": "Folder1",
+      "id": 1231,
+      "resource_url": "http://someurl/Folder1"
+    },
+    {
+      "count": 4,
+      "name": "Folder2",
+      "id": 1232,
+      "resource_url": "http://someurl/Folder2"
+    },
+    {
+      "count": 2,
+      "name": "Folder3",
+      "id": 1233,
+      "resource_url": "http://someurl/Folder3"
+    }
+  ]
+}

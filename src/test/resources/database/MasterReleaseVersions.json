@@ -1,0 +1,39 @@
+{
+  "pagination": {
+    "page": 1,
+    "pages": 2,
+    "per_page": 50,
+    "items": 86,
+    "urls": {
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  },
+  "versions": [
+    {
+      "id": 8924382,
+      "label": "ATCO Records",
+      "country": "US",
+      "title": "Images And Words",
+      "major_formats": [
+        "Cassette"
+      ],
+      "format": "Album",
+      "catno": "92148-4, 7 92148-4",
+      "released": "1992",
+      "status": "Accepted",
+      "resource_url": "https://api.discogs.com/releases/8924382",
+      "thumb": "https://i.discogs.com/-dpPoJu4-qn2Kh1CzjUbLuZyx340FxW_GmQhZZ1bRGI/ODItMTQ3MTU3NTMy/NC0zOTg2LmpwZWc.jpeg",
+      "stats": {
+        "community": {
+          "in_wantlist": 111,
+          "in_collection": 385
+        },
+        "user": {
+          "in_wantlist": 0,
+          "in_collection": 0
+        }
+      }
+    }
+  ]
+}

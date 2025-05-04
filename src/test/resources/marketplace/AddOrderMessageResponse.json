@@ -1,0 +1,15 @@
+{
+  "refund": {
+    "amount": 9.99,
+    "order": {
+      "id": "OrderReferenceId"
+    }
+  },
+  "timestamp": "2024-03-24T14:23:24Z",
+  "message": "Order Message",
+  "type": "Message Type",
+  "order": {
+    "id": "OrderReferenceId"
+  },
+  "subject": "Message Subject"
+}

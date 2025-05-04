@@ -1,0 +1,8 @@
+{
+  "lowest_price": {
+    "currency": "USD",
+    "value": 6.99
+  },
+  "num_for_sale": 23,
+  "blocked_form_sale": false
+}

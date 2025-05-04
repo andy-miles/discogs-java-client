@@ -1,0 +1,152 @@
+{
+  "releases": [
+    {
+      "instance_id": 1001,
+      "rating": 5,
+      "basic_information": {
+        "labels": [
+          {
+            "catno": "Catalog Number 11",
+            "entity_type": "entityType",
+            "entity_type_name": "entityType name",
+            "name": "Record Label 11",
+            "id": 11,
+            "resource_url": "https://someurl/11"
+          },
+          {
+            "catno": "Catalog Number 12",
+            "entity_type": "entityType",
+            "entity_type_name": "entityType name",
+            "name": "Record Label 12",
+            "id": 12,
+            "resource_url": "https://someurl/12"
+          }
+        ],
+        "formats": [
+          {
+            "descriptions": [
+              "Description 1",
+              "Description 2"
+            ],
+            "name": "Format Value",
+            "qty": 10
+          }
+        ],
+        "thumb": "https://someurl/thum.jpg",
+        "cover_image": "https://someurl/cover.jpg",
+        "title": "Release Title 1",
+        "artists": [
+          {
+            "anv": "Anv Value",
+            "join": "Join value",
+            "name": "Artist name",
+            "role": "primary",
+            "tracks": "Tracks value",
+            "thumbnail_url": "http://someurl/artistthumb.jpg",
+            "id": 15,
+            "resource_url": "http://someurl/15"
+          }
+        ],
+        "genres": [
+          "Alternative Rock",
+          "Rock"
+        ],
+        "styles": [
+          "Style 1",
+          "Style 2"
+        ],
+        "year": 2000,
+        "id": 1
+      },
+      "folder_id": 25,
+      "date_added": "2001-12-01T07:00:00Z",
+      "notes": [
+        {
+          "field_id": 13,
+          "value": "Note Value"
+        }
+      ],
+      "id": 1,
+      "resource_url": "https://someurl/1"
+    },
+    {
+      "instance_id": 1002,
+      "rating": 5,
+      "basic_information": {
+        "labels": [
+          {
+            "catno": "Catalog Number 11",
+            "entity_type": "entityType",
+            "entity_type_name": "entityType name",
+            "name": "Record Label 11",
+            "id": 11,
+            "resource_url": "https://someurl/11"
+          },
+          {
+            "catno": "Catalog Number 12",
+            "entity_type": "entityType",
+            "entity_type_name": "entityType name",
+            "name": "Record Label 12",
+            "id": 12,
+            "resource_url": "https://someurl/12"
+          }
+        ],
+        "formats": [
+          {
+            "descriptions": [
+              "Description 1",
+              "Description 2"
+            ],
+            "name": "Format Value",
+            "qty": 10
+          }
+        ],
+        "thumb": "https://someurl/thum.jpg",
+        "cover_image": "https://someurl/cover.jpg",
+        "title": "Release Title 2",
+        "artists": [
+          {
+            "anv": "Anv Value",
+            "join": "Join value",
+            "name": "Artist name",
+            "role": "primary",
+            "tracks": "Tracks value",
+            "thumbnail_url": "http://someurl/artistthumb.jpg",
+            "id": 15,
+            "resource_url": "http://someurl/15"
+          }
+        ],
+        "genres": [
+          "Alternative Rock",
+          "Rock"
+        ],
+        "styles": [
+          "Style 1",
+          "Style 2"
+        ],
+        "year": 2000,
+        "id": 2
+      },
+      "folder_id": 25,
+      "date_added": "2001-12-01T07:00:00Z",
+      "notes": [
+        {
+          "field_id": 13,
+          "value": "Note Value"
+        }
+      ],
+      "id": 2,
+      "resource_url": "https://someurl/2"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "pages": 1,
+    "items": 2,
+    "per_page": 10,
+    "urls": {
+      "next": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50",
+      "last": "https://api.discogs.com/masters/52086/versions?page\u003d2\u0026per_page\u003d50"
+    }
+  }
+}
