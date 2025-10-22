@@ -72,7 +72,7 @@ A client for Java programmatic access to [The Discogs API](https://www.discogs.c
    <dependency>
        <groupId>com.amilesend</groupId>
        <artifactId>discogs-java-client</artifactId>
-       <version>1.0.2</version>
+       <version>1.0.3</version>
    </dependency>
    ```
 3. Instantiate the client:
