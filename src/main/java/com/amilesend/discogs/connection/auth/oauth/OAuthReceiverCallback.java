@@ -1,5 +1,5 @@
 /*
- * discogs-java-client - A Java SDK to access the Discogs API
+ * discogs-java-client - A Java client to access the Discogs API
  * Copyright © 2025 Andy Miles (andy.miles@amilesend.com)
  *
  * This program is free software: you can redistribute it and/or modify
