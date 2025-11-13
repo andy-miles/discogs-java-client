@@ -132,7 +132,7 @@ public class DiscogsConnection extends Connection<GsonFactory> {
             @NonNull final TransferProgressCallback callback) throws ConnectionException {
         authVerifier.checkIfAuthenticated(getAuthManager());
 
-        try (final Response response = getHttpClient().newCall(request).execute()) {
+        try (final Response response = super.execute(request)) {
             final String fileName = parseFileNameFromContentDisposition(response.header(CONTENT_DISPOSITION));
             final long sizeBytes = Optional.of(response)
                             .map(r -> r.header(CONTENT_LENGTH))
@@ -187,8 +187,6 @@ public class DiscogsConnection extends Connection<GsonFactory> {
             final Path downloadPath,
             final long sizeBytes,
             final TransferProgressCallback callback) throws IOException {
-        validateResponseCode(response);
-
         final long totalBytes = TransferFileWriter.builder()
                 .output(downloadPath)
                 .callback(callback)

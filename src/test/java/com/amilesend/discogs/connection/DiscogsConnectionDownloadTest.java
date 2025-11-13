@@ -333,8 +333,6 @@ public class DiscogsConnectionDownloadTest extends DiscogsConnectionTestBase {
         when(mockResponseBody.source()).thenReturn(mockSource);
         final Response mockResponse = mock(Response.class);
         when(mockResponse.body()).thenReturn(mockResponseBody);
-        when(mockResponse.code()).thenReturn(SUCCESS_RESPONSE_CODE);
-        when(mockResponse.isSuccessful()).thenReturn(true);
 
         try (final MockedStatic<TransferFileWriter> writerMockedStatic = mockStatic(TransferFileWriter.class)) {
             writerMockedStatic.when(() -> TransferFileWriter.builder()).thenReturn(mockBuilder);
@@ -366,8 +364,6 @@ public class DiscogsConnectionDownloadTest extends DiscogsConnectionTestBase {
         when(mockResponseBody.source()).thenReturn(mockSource);
         final Response mockResponse = mock(Response.class);
         when(mockResponse.body()).thenReturn(mockResponseBody);
-        when(mockResponse.code()).thenReturn(SUCCESS_RESPONSE_CODE);
-        when(mockResponse.isSuccessful()).thenReturn(true);
 
         try (final MockedStatic<TransferFileWriter> writerMockedStatic = mockStatic(TransferFileWriter.class)) {
             writerMockedStatic.when(() -> TransferFileWriter.builder()).thenReturn(mockBuilder);

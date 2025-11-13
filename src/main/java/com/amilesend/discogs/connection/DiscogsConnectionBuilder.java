@@ -18,6 +18,7 @@
 package com.amilesend.discogs.connection;
 
 import com.amilesend.client.connection.ConnectionBuilder;
+import com.amilesend.client.connection.retry.NoRetryStrategy;
 import com.amilesend.client.util.StringUtils;
 import com.amilesend.client.util.Validate;
 import com.amilesend.discogs.parse.GsonFactory;
@@ -46,6 +47,7 @@ public class DiscogsConnectionBuilder
                 .baseUrl(Optional.ofNullable(getBaseUrl()).orElse(DEFAULT_BASE_URL))
                 .userAgent(getUserAgent())
                 .isGzipContentEncodingEnabled(isGzipContentEncodingEnabled())
+                .retryStrategy(new NoRetryStrategy())
                 .build();
     }
 

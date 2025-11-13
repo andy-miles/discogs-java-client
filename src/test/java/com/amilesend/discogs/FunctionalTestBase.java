@@ -20,6 +20,7 @@ package com.amilesend.discogs;
 import com.amilesend.client.connection.auth.NoOpAuthManager;
 import com.amilesend.client.connection.file.TransferProgressCallback;
 import com.amilesend.client.connection.http.OkHttpClientBuilder;
+import com.amilesend.client.connection.retry.NoRetryStrategy;
 import com.amilesend.discogs.connection.DiscogsConnection;
 import com.amilesend.discogs.data.SerializedResource;
 import com.amilesend.discogs.parse.GsonFactory;
@@ -109,6 +110,7 @@ public class FunctionalTestBase {
                 .httpClient(httpClient)
                 .userAgent("FunctionalTest/1.0")
                 .authManager(new NoOpAuthManager())
+                .retryStrategy(new NoRetryStrategy())
                 .build();
         client = new Discogs(connection);
     }

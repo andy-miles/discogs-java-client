@@ -18,6 +18,7 @@
 package com.amilesend.discogs.connection;
 
 import com.amilesend.client.connection.auth.AuthManager;
+import com.amilesend.client.connection.retry.NoRetryStrategy;
 import com.amilesend.discogs.connection.auth.AuthVerifier;
 import com.amilesend.discogs.parse.GsonFactory;
 import com.google.gson.Gson;
@@ -75,6 +76,7 @@ public class DiscogsConnectionTestBase {
                 .userAgent(USER_AGENT_VALUE)
                 .authVerifier(mockAuthVerifier)
                 .isGzipContentEncodingEnabled(true)
+                .retryStrategy(new NoRetryStrategy())
                 .build());
     }
 

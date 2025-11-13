@@ -57,26 +57,8 @@ public class DiscogsConnectionExecuteTest extends DiscogsConnectionTestBase {
 
     @Test
     @SneakyThrows
-    public void execute_withValidRequestAndParserAndGzipEncodedResponse_shouldReturnResponse() {
-        setUpHttpClientMock(setUpResponseWithBody("gzip"));
-
-        final GetReleaseResponse mockGetReleaseResponse = mock(GetReleaseResponse.class);
-        final GsonParser<GetReleaseResponse> mockParser = mock(GsonParser.class);
-        when(mockParser.parse(any(Gson.class), any(InputStream.class))).thenReturn(mockGetReleaseResponse);
-
-        try (final MockedConstruction<GZIPInputStream> gzipMockCtor = mockConstruction(GZIPInputStream.class)) {
-            final GetReleaseResponse actual = connectionUnderTest.execute(mock(Request.class), mockParser);
-
-            assertAll(
-                    () -> assertEquals(mockGetReleaseResponse, actual),
-                    () -> verify(mockParser).parse(isA(Gson.class), isA(InputStream.class)));
-        }
-    }
-
-    @Test
-    @SneakyThrows
-    public void execute_withValidRequestAndParserAndNonGzipEncodedResponse_shouldReturnResponse() {
-        setUpHttpClientMock(setUpResponseWithBody(null));
+    public void execute_withValidRequestAndParser_shouldReturnResponse() {
+        setUpHttpClientMock(setUpResponseWithBody());
 
         final GetReleaseResponse mockGetReleaseResponse = mock(GetReleaseResponse.class);
         final GsonParser<GetReleaseResponse> mockParser = mock(GsonParser.class);
@@ -104,7 +86,7 @@ public class DiscogsConnectionExecuteTest extends DiscogsConnectionTestBase {
     @Test
     @SneakyThrows
     public void execute_withJsonParseException_shouldThrowException() {
-        setUpHttpClientMock(setUpResponseWithBody(null));
+        setUpHttpClientMock(setUpResponseWithBody());
 
         final GsonParser<GetReleaseResponse> mockParser = mock(GsonParser.class);
         when(mockParser.parse(any(Gson.class), any(InputStream.class))).thenThrow(new JsonParseException("Exception"));
@@ -160,15 +142,13 @@ public class DiscogsConnectionExecuteTest extends DiscogsConnectionTestBase {
         assertThrows(NullPointerException.class, () -> connectionUnderTest.execute(null));
     }
 
-    private Response setUpResponseWithBody(final String contentEncoding) {
+    private Response setUpResponseWithBody() {
         final InputStream mockBodyStream = mock(InputStream.class);
         final ResponseBody mockResponseBody = mock(ResponseBody.class);
         when(mockResponseBody.byteStream()).thenReturn(mockBodyStream);
         final Response mockResponse = mock(Response.class);
         when(mockResponse.body()).thenReturn(mockResponseBody);
-        when(mockResponse.code()).thenReturn(SUCCESS_RESPONSE_CODE);
         when(mockResponse.isSuccessful()).thenReturn(true);
-        when(mockResponse.header(eq(CONTENT_ENCODING))).thenReturn(contentEncoding);
 
         return mockResponse;
     }
@@ -194,7 +174,6 @@ public class DiscogsConnectionExecuteTest extends DiscogsConnectionTestBase {
         final Response mockResponse = mock(Response.class);
         when(mockResponse.header(eq(LOCATION))).thenReturn(location);
         when(mockResponse.isSuccessful()).thenReturn(true);
-        when(mockResponse.code()).thenReturn(SUCCESS_RESPONSE_CODE);
 
         return mockResponse;
     }
