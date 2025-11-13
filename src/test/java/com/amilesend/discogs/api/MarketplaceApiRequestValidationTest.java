@@ -37,10 +37,7 @@ import com.amilesend.discogs.model.type.Currency;
 import com.amilesend.discogs.model.type.SortOrder;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.time.ZonedDateTime;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertThrows;

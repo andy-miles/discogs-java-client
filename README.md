@@ -72,7 +72,7 @@ A client for Java programmatic access to [The Discogs API](https://www.discogs.c
    <dependency>
        <groupId>com.amilesend</groupId>
        <artifactId>discogs-java-client</artifactId>
-       <version>1.0.4</version>
+       <version>1.1</version>
    </dependency>
    ```
 3. Instantiate the client:
@@ -136,6 +136,26 @@ A client for Java programmatic access to [The Discogs API](https://www.discogs.c
       UserIdentityApi userIdentityApi = client.getUserIdentityApi();
       AuthenticatedUser userInfo = userIdentityApi.getAuthenticatedUser();
       ```
+
+       Also, you can configure a RetryStrategy:
+       ```java
+       Discogs client = new Discogs(new DiscogsConnectionBuilder()
+           .httpClient(new OkHttpClientBuilder().build())
+           .authManager(new AuthManagerFactory().newUnauthenticatedAuthManager())
+           .baseUrl(DiscogsConnection.DEFAULT_BASE_URL)
+           .gsonFactory(new GsonFactory())
+           .isGzipContentEncodingEnabled(true)
+           .userAgent("MyUserAgent/1.0")
+           // Options are ExponentialDelayRetryStrategy, FixedDelayRetryStrategy
+           // or NoRetryStrategy (default).
+           .retryStrategy(ExponentialDelayRetryStrategy.builder()
+                  .baseDelayMs(500L)
+                  .maxJitterMs(100L)
+                  .maxAttempts(3)
+                  .maxTotalDelayMs(2000L)
+                  .build())
+           .build());
+       ```
 
 <div align="right">(<a href="#readme-top">back to top</a>)</div>
 

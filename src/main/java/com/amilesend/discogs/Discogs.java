@@ -41,7 +41,6 @@ import lombok.RequiredArgsConstructor;
 import okhttp3.OkHttpClient;
 
 import java.util.Objects;
-import java.util.Optional;
 
 import static com.amilesend.discogs.connection.DiscogsConnection.DEFAULT_BASE_URL;
 
