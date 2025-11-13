@@ -25,7 +25,7 @@
 
     <groupId>com.amilesend</groupId>
     <artifactId>discogs-java-client</artifactId>
-    <version>1.1</version>
+    <version>1.1.0-SNAPSHOT</version>
 
     <name>discogs-java-client</name>
     <description>A Java client to access the Discogs API</description>
