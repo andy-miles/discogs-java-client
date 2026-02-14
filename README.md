@@ -124,7 +124,7 @@ A client for Java programmatic access to [The Discogs API](https://www.discogs.c
               .getAuthManager()
               .getAuthInfo();
       ```
-   5. OAuth with existing persisted user token to access resources on beahlf of a user:
+   5. OAuth with existing persisted user token to access resources on behalf of a user:
       ```java
       Discogs client = Discogs.newOAuthInstance(
               new KeySecretAuthInfo("My App Key", "My App Secret"),
