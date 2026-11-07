@@ -53,7 +53,7 @@ import static java.net.HttpURLConnection.HTTP_OK;
  */
 @Slf4j
 public class OAuthReceiverCallback implements HttpHandler {
-    private static final String LANDING_HTML_RESOURCE = "/SuccessLanding.html";
+    private static final String LANDING_HTML_RESOURCE = "SuccessLanding.html";
     private static final String LANDING_HTML_FALLBACK = new StringBuilder("<html>")
             .append("<head><title>OAuth Authentication Token Received</title></head>")
             .append("<body>")
